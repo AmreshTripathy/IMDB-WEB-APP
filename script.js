@@ -43,7 +43,7 @@ function searchResult() {
 
 function fetchResults() {
     var url = `https://www.omdbapi.com/?s=${search_text.value}&apikey=${api_key.value}`;
-    console.log(url);
+    
     fetch(url)
         .then((response) => response.json())
         .then((data) => {
