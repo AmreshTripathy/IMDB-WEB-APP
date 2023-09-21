@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDB MOVIE APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Title -->
+    <div class="title">IMDB MOVIE APP</div>
+
+    <!-- Input Section -->
+
+    <div class="input-section">
+        <!-- api key -->
+        <div>
+            <input type="text" id="api_key" placeholder="API_KEY">
+            <img id="api_button" src="icons/key 1.svg">
+        </div>
+
+        <!-- search -->
+        <div>
+            <input type="text" id="serch_text" placeholder="Search">
+            <img id="search" src="icons/Search.svg" style="margin-left: 21px;">
+        </div>
+    </div>
+
+    <!-- Error Message -->
+    <div class="error" id="error"></div>
+
+    <!-- Loader  -->
+    <div class="loader" id="loader">
+        <div class="load"></div>
+    </div>
+
+    <!-- List of movie section -->
+    <div class="movie-container" id="movie-container">
+        <!-- <a href="https://www.imdb.com/title/tt15354916" target="_blank">
+            <div class="card">
+                <div class="movie-banner">
+                    <img src="icons/movie-1.png" alt="">
+                </div>
+                <div class="details">
+                    <p class="number">1</p>
+                    <p class="movie-name">Jurrasic World</p>
+                </div>
+            </div>
+        </a> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
